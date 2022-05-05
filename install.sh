@@ -1,6 +1,13 @@
 ##installing dependices and updating sys lol
-U="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:21.0) Gecko/20100101 Firefox/21.0" 
-#sudo pacman -Syyu python-pywal ttf-font-awesome ttf-inconsolata ttf-joypixels ttf-junicode ttf-liberation ttf-linux-libertine nitrogen 
+ 
+sudo pacman -Syyu python-pywal ttf-font-awesome ttf-inconsolata ttf-joypixels ttf-junicode ttf-liberation ttf-linux-libertine nitrogen base-devel
+
+git clone https://aur.archlinux.org/font-symbola.git
+cd font-symbola
+makepkg -sic
+
+
+U="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"
 echo $U
 
 
