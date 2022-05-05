@@ -1,3 +1,4 @@
+#!/bin/sh
 ##installing dependices and updating sys lol
  
 sudo pacman -Syyu python-pywal ttf-font-awesome ttf-inconsolata ttf-joypixels ttf-junicode ttf-liberation ttf-linux-libertine nitrogen base-devel
@@ -6,10 +7,10 @@ git clone https://aur.archlinux.org/font-symbola.git
 cd font-symbola
 makepkg -sic
 
-
+## adding custom useragent 
 U="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"
-echo $U
 
+echo "\n your useragent for downloading wallpapers is $U " 
 
 ## for fullfiling custom color demands 
 
